@@ -1,0 +1,26 @@
+# Ignorar pastas de dependências (geralmente em cada subprojeto)
+node_modules/
+**/node_modules/ # Ignora qualquer pasta node_modules em qualquer subdiretório
+
+# Ignorar arquivos de build e distribuição
+build/
+dist/
+out/
+**/build/
+**/dist/
+**/out/
+
+# Logs e caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store # macOS
+.env* # Variáveis de ambiente (ex: .env, .env.local)
+
+# Ignorar configurações específicas do editor (opcional, se não quiser compartilhar)
+.vscode/
+
+# Outras pastas que você pode criar e que não devem ser versionadas
+# Exemplo, se você tiver um backend em Python com um ambiente virtual:
+# backend/venv/
