@@ -1,0 +1,108 @@
+.cabecalho-page {
+
+    .cabecalho-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 5.5rem;
+        // border-bottom: 1px solid black;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 7px 9px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .cabecalho-logo {
+        
+        margin-right: 7rem;
+        margin-left: 6rem;
+    
+        .cabecalho-image {
+            width: 12.5rem;
+        }
+    }
+
+    .cabecalho-busca {
+        width: 20%;
+    }
+
+    .cabecalho-input {
+        width: 100%;
+        height: 45px;
+        padding: 12px;
+        border-radius: 12px;
+        border: 1.5px solid lightgrey;
+        outline: none;
+        transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+        box-shadow: 0px 0px 20px -18px;
+
+        &:hover {
+            border: 2px solid lightgrey;
+            box-shadow: 0px 0px 20px -17px;
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+
+    .cabecalho-opcoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        margin-left: 7rem;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+
+        #div-opcoes-hover {
+            padding: 0.6rem 0.8rem;
+            border-radius: 0.5rem;
+
+            &:hover {
+                background-color: #3b82f6;
+                cursor: pointer;
+            }
+        }
+
+        .cabecalho-div-carrinho {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f59e0b;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+
+            &:hover {
+                background-color: #e09846;
+                cursor: pointer;
+            }
+
+            .cabecalho-contador-carrinho {
+                border-radius: 50%;
+                padding: 0.3rem 0.5rem;
+                font-size: 0.75rem;
+                margin-left: 0.5rem;
+                min-width: 1.5rem;
+                text-align: center;
+                background: #ef4444;
+                color: white;
+            }
+        }
+    }
+
+    .cabecalho-perfil {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1.6rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        background-color: #3b82f6;
+        overflow: hidden;
+        font-size: 16px;
+    }
+
+
+}
