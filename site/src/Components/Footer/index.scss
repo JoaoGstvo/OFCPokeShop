@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 20rem;
     background-color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
 
     .footer-section-flex {
         display: flex;
@@ -13,11 +14,10 @@
 
 
         .footer-div-frase {
-            font-family: Arial, Helvetica, sans-serif;
             color: white;
 
             .footer-nome-loja {
-                font-size: 2rem;
+                font-size: 1.8rem;
                 font-weight: bold;
             }
 
@@ -28,7 +28,6 @@
         }
 
         .footer-div-links {
-            font-family: Arial, Helvetica, sans-serif;
             color: white;
             font-size: 1rem;
 
@@ -45,7 +44,6 @@
         }
 
         .footer-adm {
-            font-family: Arial, Helvetica, sans-serif;
             font-size: 1.2rem;
             display: flex;
             align-self: center;
@@ -58,8 +56,7 @@
     }
 
     .footer-creditos {
-        // height: 3rem;
-        font-family: Arial, Helvetica, sans-serif;
+        // height: 3rem
         display: flex;
         justify-content: center;
         align-self: center;

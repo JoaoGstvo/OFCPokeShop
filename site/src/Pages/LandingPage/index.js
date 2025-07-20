@@ -16,7 +16,20 @@ function LandingPage() {
                 <div className="landingpage-descricao-section">
                     <h3>Descubra nossa coleção exclusiva de Pokémons raros e lendários</h3>
                 </div>
-                <a className="landingpage-button-section-inicial" href="/">Ver Pokémons</a>
+                <a className="landingpage-button-section-inicial" href="#Pokémons">Ver Pokémons</a>
+            </section>
+
+            <div className="landingpage-titulo-pokemon">
+                <h1 id="Pokémons">Pokémons</h1>
+            </div>
+
+            <section className="landingpage-section-filtro">
+                <select className="landingpage-filtro-select">
+                    <option value="">Filtrar por Categoria</option>
+                    <option value="lendario">Lendário</option>
+                    <option value="shiny">Shiny</option>
+                    <option value="fundo-especial">Fundo Especial</option>
+                </select>
             </section>
 
             <section className="landingpage-section-pokemons">

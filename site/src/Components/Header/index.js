@@ -5,7 +5,9 @@ function Header() {
         <header className="cabecalho-page">
             <section className="cabecalho-section">
                 <div className="cabecalho-logo">
-                    <img className="cabecalho-image" src="/images/Logo.png" alt="" />
+                    <a href="/">
+                        <img className="cabecalho-image" src="/images/Logo.png" alt="" />
+                    </a>
                 </div>
                 <div className="cabecalho-busca">
                     <input className="cabecalho-input" type="text" placeholder="Buscar Pokémon..." />
@@ -13,10 +15,6 @@ function Header() {
                 <div className="cabecalho-opcoes">
                     <div id="div-opcoes-hover">
                         <a href="/">Como Funciona</a>
-                    </div>
-                    <div id="div-opcoes-hover">
-                        <a href="/">Início</a>
-
                     </div>
                     <div id="div-opcoes-hover">
                         <a href="/">Pokémons</a>
