@@ -1,0 +1,71 @@
+.footer-page {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    background-color: #1f2937;
+
+    .footer-section-flex {
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+        justify-content: space-around;
+        padding-top: 4rem;
+
+
+        .footer-div-frase {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+
+            .footer-nome-loja {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .footer-p-titulo {
+                font-size: 1rem;
+                padding-top: 1.4rem;
+            }
+        }
+
+        .footer-div-links {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 1rem;
+
+            .footer-ul-links {
+                list-style: none;
+                padding: 0;
+                padding-top: 1.4rem;
+
+
+                .footer-li-links {
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+
+        .footer-adm {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            display: flex;
+            align-self: center;
+            margin-top: -2rem;
+            background-color: #ef4444;
+            color: black;
+            padding: 0.5rem 1rem;
+            border-radius: 0.8rem;
+        }
+    }
+
+    .footer-creditos {
+        // height: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding-top: 1.5rem;
+        color: white;
+        border-top: #405066 1px solid;
+        width: 70%;
+    }
+}

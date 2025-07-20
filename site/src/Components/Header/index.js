@@ -2,7 +2,7 @@ import "./index.scss";
 
 function Header() {
     return (
-        <main className="cabecalho-page">
+        <header className="cabecalho-page">
             <section className="cabecalho-section">
                 <div className="cabecalho-logo">
                     <img className="cabecalho-image" src="/images/Logo.png" alt="" />
@@ -31,7 +31,7 @@ function Header() {
                     </div>
                 </div>
             </section>
-        </main>
+        </header>
     );
 }
 
