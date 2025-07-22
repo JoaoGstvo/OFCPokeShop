@@ -40,7 +40,7 @@ function Footer() {
                 </div>
 
                 <div className="footer-adm">
-                    <a className="footer-adm-botao" href="/">Administrador</a>
+                    <a className="footer-adm-botao" href="/loginADM">Administrador</a>
                 </div>
             </section>
 

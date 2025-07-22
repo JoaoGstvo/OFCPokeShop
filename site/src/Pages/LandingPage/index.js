@@ -11,7 +11,7 @@ function LandingPage() {
 
             <section className="landingpage-section-inicial">
                 <div className="landingpage-titulo-section">
-                    <h1>Capture os Melhores Pokémons!</h1>
+                    <h1>Encontre os Melhores Pokémons!</h1>
                 </div>
                 <div className="landingpage-descricao-section">
                     <h3>Descubra nossa coleção exclusiva de Pokémons raros e lendários</h3>

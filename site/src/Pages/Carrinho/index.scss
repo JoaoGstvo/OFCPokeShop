@@ -1,0 +1,297 @@
+.carrinhoUsuario-pagina {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8fafc;
+    min-height: 100vh;
+
+    .carrinhoUsuario-secao {
+        padding: 120px 0 80px 1.5rem;
+        width: 90%;
+        margin-top: -4rem;
+
+        .carrinhoUsuario-container {
+            .carrinhoUsuario-cabecalho {
+                text-align: center;
+                margin-bottom: 3rem;
+
+                .carrinhoUsuario-titulo {
+                    font-size: 2.5rem;
+                    color: #1f2937;
+                    margin-bottom: 1rem;
+                }
+
+                .carrinhoUsuario-subtitulo {
+                    color: #6b7280;
+                    font-size: 1.1rem;
+                }
+            }
+
+            .carrinhoUsuario-conteudo {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                gap: 3rem;
+                align-items: start;
+
+                .carrinhoUsuario-blocoItens {
+                    .carrinhoUsuario-subtituloItens {
+                        color: #1f2937;
+                        margin-bottom: 2rem;
+                        font-size: 1.8rem;
+                    }
+
+                    .carrinhoUsuario-vazio {
+                        text-align: center;
+                        padding: 4rem 2rem;
+                        background: white;
+                        border-radius: 16px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+                        .carrinhoUsuario-iconeVazio {
+                            font-size: 4rem;
+                            margin-bottom: 1rem;
+                        }
+
+                        .carrinhoUsuario-tituloVazio {
+                            color: #374151;
+                            margin-bottom: 1rem;
+                        }
+
+                        .carrinhoUsuario-textoVazio {
+                            color: #6b7280;
+                            margin-bottom: 2rem;
+                        }
+
+                        .carrinhoUsuario-botaoExplorar {
+                            background: #fbbf24;
+                            color: #1f2937;
+                            padding: 12px 24px;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            transition: all 0.3s ease;
+                            display: inline-block;
+                            text-decoration: none;
+                            border: none;
+                            font-size: 1rem;
+
+                            &:hover {
+                                background: #f59e0b;
+                                transform: translateY(-2px);
+                            }
+                        }
+                    }
+
+                    .carrinhoUsuario-listaItens {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1.5rem;
+
+                        .carrinhoUsuario-itemLinha {
+                            background: white;
+                            border-radius: 16px;
+                            padding: 1.5rem;
+                            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                            display: grid;
+                            grid-template-columns: 120px 1fr auto auto auto;
+                            gap: 1.5rem;
+                            align-items: center;
+
+                            .carrinhoUsuario-imagem {
+                                img {
+                                    width: 100%;
+                                    height: 100px;
+                                    object-fit: contain;
+                                    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+                                    border-radius: 8px;
+                                    padding: 0.5rem;
+                                }
+                            }
+
+                            .carrinhoUsuario-detalhes {
+                                .carrinhoUsuario-nome {
+                                    color: #1f2937;
+                                    margin-bottom: 0.5rem;
+                                    font-size: 1.2rem;
+                                }
+
+                                .carrinhoUsuario-tipo {
+                                    color: #6b7280;
+                                    margin-bottom: 0.5rem;
+                                    font-size: 0.9rem;
+                                }
+
+                                .carrinhoUsuario-categoria {
+                                    padding: 0.3rem 0.8rem;
+                                    border-radius: 15px;
+                                    font-size: 0.75rem;
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+
+                                    &.lendário-etiqueta {
+                                        background: linear-gradient(135deg, #fbbf24, #f59e0b);
+                                        color: white;
+                                    }
+
+                                    &.shiny-etiqueta {
+                                        background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+                                        color: white;
+                                    }
+                                }
+                            }
+
+                            .carrinhoUsuario-quantidade {
+                                .carrinhoUsuario-labelQuantidade {
+                                    display: block;
+                                    color: #374151;
+                                    font-weight: 500;
+                                    margin-bottom: 0.5rem;
+                                    font-size: 0.9rem;
+                                }
+
+                                .carrinhoUsuario-controleQuantidade {
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 0.5rem;
+
+                                    .carrinhoUsuario-botaoQuantidade {
+                                        background: #f3f4f6;
+                                        border: 1px solid #d1d5db;
+                                        border-radius: 6px;
+                                        width: 32px;
+                                        height: 32px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        cursor: pointer;
+                                        transition: all 0.3s ease;
+
+                                        &:hover {
+                                            background: #e5e7eb;
+                                        }
+                                    }
+
+                                    .carrinhoUsuario-numeroQuantidade {
+                                        min-width: 2rem;
+                                        text-align: center;
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+
+                            .carrinhoUsuario-preco {
+                                text-align: right;
+
+                                .carrinhoUsuario-precoUnitario {
+                                    display: block;
+                                    color: #6b7280;
+                                    font-size: 0.9rem;
+                                    text-decoration: line-through;
+                                }
+
+                                .carrinhoUsuario-precoTotal {
+                                    display: block;
+                                    color: #059669;
+                                    font-size: 1.2rem;
+                                    font-weight: bold;
+                                }
+                            }
+
+                            .carrinhoUsuario-acoes {
+                                .carrinhoUsuario-botaoRemover {
+                                    background: #fef2f2;
+                                    color: #dc2626;
+                                    border: none;
+                                    border-radius: 8px;
+                                    padding: 0.75rem;
+                                    cursor: pointer;
+                                    transition: all 0.3s ease;
+
+                                    &:hover {
+                                        background: #fee2e2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .carrinhoUsuario-resumo {
+                    background: white;
+                    border-radius: 16px;
+                    padding: 2rem;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+                    position: sticky;
+                    top: 120px;
+                    margin-left: 2rem;
+                    margin-right: -2rem;
+
+                    .carrinhoUsuario-tituloResumo {
+                        color: #1f2937;
+                        margin-bottom: 1.5rem;
+                        font-size: 1.5rem;
+                    }
+
+                    .carrinhoUsuario-detalhesResumo {
+                        margin-bottom: 2rem;
+
+                        .carrinhoUsuario-linhaResumo {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 1rem;
+                            color: #374151;
+
+                            &.carrinhoUsuario-totalResumo {
+                                border-top: 1px solid #e5e7eb;
+                                padding-top: 1rem;
+                                font-size: 1.2rem;
+                                font-weight: bold;
+                                color: #1f2937;
+                            }
+                        }
+                    }
+
+                    .carrinhoUsuario-acoesResumo {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1rem;
+                        margin-bottom: 2rem;
+
+                        .carrinhoUsuario-botaoContinuar,
+                        .carrinhoUsuario-botaoFinalizar {
+                            display: inline-block;
+                            padding: 12px 24px;
+                            text-decoration: none;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            transition: all 0.3s ease;
+                            cursor: pointer;
+                            border: none;
+                            font-size: 1rem;
+                            text-align: center;
+                        }
+
+                        .carrinhoUsuario-botaoContinuar {
+                            background: #3b82f6;
+                            color: white;
+
+                            &:hover {
+                                background: #2563eb;
+                                transform: translateY(-2px);
+                            }
+                        }
+
+                        .carrinhoUsuario-botaoFinalizar {
+                            background: #fbbf24;
+                            color: #1f2937;
+
+                            &:hover {
+                                background: #f59e0b;
+                                transform: translateY(-2px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

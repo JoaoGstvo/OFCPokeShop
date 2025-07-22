@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage';
 import LoginUsuario from './Pages/LoginUsuario';
 import CadastroUsuario from './Pages/Cadastro';
+import Carrinho from './Pages/Carrinho';
+import LoginADM from './Pages/ADM/LoginADM';
 
 export default function Index() {
     return (
@@ -10,7 +12,9 @@ export default function Index() {
             <Routes>
                 <Route path="/" element={<LoginUsuario />} />
                 <Route path="/landingPage" element={<LandingPage />} />
+                <Route path="/carrinho" element={<Carrinho />} />
                 <Route path="/cadastroUsuario" element={<CadastroUsuario />} />
+                <Route path="/loginADM" element={<LoginADM />} />
             </Routes>
         </BrowserRouter>
     )
