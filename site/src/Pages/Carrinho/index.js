@@ -22,34 +22,34 @@ function Carrinho() {
             preco: 1800.00,
             imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
             quantidade: 2
-        },
-        {
-            id: 2,
-            nome: "Charizard Shiny",
-            tipo: "Fogo/Voador",
-            categoria: "Shiny",
-            preco: 1800.00,
-            imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-            quantidade: 2
-        },
-        {
-            id: 3,
-            nome: "Charizard Shiny",
-            tipo: "Fogo/Voador",
-            categoria: "Shiny",
-            preco: 1800.00,
-            imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-            quantidade: 2
-        },
-        {
-            id: 4,
-            nome: "Charizard Shiny",
-            tipo: "Fogo/Voador",
-            categoria: "Shiny",
-            preco: 1800.00,
-            imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
-            quantidade: 2
         }
+        // {
+        //     id: 2,
+        //     nome: "Charizard Shiny",
+        //     tipo: "Fogo/Voador",
+        //     categoria: "Shiny",
+        //     preco: 1800.00,
+        //     imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        //     quantidade: 2
+        // },
+        // {
+        //     id: 3,
+        //     nome: "Charizard Shiny",
+        //     tipo: "Fogo/Voador",
+        //     categoria: "Shiny",
+        //     preco: 1800.00,
+        //     imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        //     quantidade: 2
+        // },
+        // {
+        //     id: 4,
+        //     nome: "Charizard Shiny",
+        //     tipo: "Fogo/Voador",
+        //     categoria: "Shiny",
+        //     preco: 1800.00,
+        //     imagem: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+        //     quantidade: 2
+        // }
     ];
 
     const calcularTotalCarrinhoUsuario = () => {
