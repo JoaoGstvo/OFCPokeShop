@@ -17,7 +17,7 @@ function LoginAdministrativo() {
                         <label >Senha</label>
                         <input type="password" id="password" placeholder="Digite sua senha" />
                     </div>
-                    <a href="/">Entrar</a>
+                    <a href="/landingADM">Entrar</a>
                 </div>
                 <div className="loginadm-informativo">
                     <p>Está área é específica para Administradores, por favor volte para a página inicial. </p>

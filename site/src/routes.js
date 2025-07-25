@@ -5,6 +5,7 @@ import LoginUsuario from './Pages/LoginUsuario';
 import CadastroUsuario from './Pages/Cadastro';
 import Carrinho from './Pages/Carrinho';
 import LoginADM from './Pages/ADM/LoginADM';
+import LandingADM from './Pages/ADM/LandingADM';
 
 export default function Index() {
     return (
@@ -15,6 +16,7 @@ export default function Index() {
                 <Route path="/carrinho" element={<Carrinho />} />
                 <Route path="/cadastroUsuario" element={<CadastroUsuario />} />
                 <Route path="/loginADM" element={<LoginADM />} />
+                <Route path="/landingADM" element={<LandingADM />} />
             </Routes>
         </BrowserRouter>
     )
